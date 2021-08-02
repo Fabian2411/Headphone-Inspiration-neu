@@ -1,0 +1,375 @@
+@font-face {
+    font-family: "work1";
+    src: url(../font/WorkSans-Black.ttf);
+}
+@font-face {
+    font-family: "work2";
+    src: url(../font/WorkSans-BlackItalic.ttf);
+}
+@font-face {
+    font-family: "work3";
+    src: url(../font/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "work4";
+    src: url(../font/WorkSans-BoldItalic.ttf);
+}
+@font-face {
+    font-family: "work5";
+    src: url(../font/WorkSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "work6";
+    src: url(../font/WorkSans-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: "work7";
+    src: url(../font/WorkSans-ExtraLight.ttf);
+}
+@font-face {
+    font-family: "work8";
+    src: url(../font/WorkSans-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: "work9";
+    src: url(../font/WorkSans-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "work10";
+    src: url(../font/WorkSans-Italic.ttf);
+}
+@font-face {
+    font-family: "work11";
+    src: url(../font/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: "work12";
+    src: url(../font/WorkSans-LightItalic.ttf);
+}
+@font-face {
+    font-family: "work13";
+    src: url(../font/WorkSans-Medium.ttf);
+}
+@font-face {
+    font-family: "work14";
+    src: url(../font/WorkSans-MediumItalic.ttf);
+}
+@font-face {
+    font-family: "work15";
+    src: url(../font/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: "work16";
+    src: url(../font/WorkSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "work17";
+    src: url(../font/WorkSans-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: "work18";
+    src: url(../font/WorkSans-Thin.ttf);
+}
+@font-face {
+    font-family: "work19";
+    src: url(../font/WorkSans-ThinItalic.ttf);
+}
+@font-face {
+    font-family: "work20";
+    src: url(../font/WorkSans-VariableFont_wght.ttf);
+}
+
+/*<!-- global -->*/
+*{
+    padding:0;
+    margin:0;
+    /*Grundbefehl, um bei allen Elementen die default Einstellungen zu deaktivieren*/
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    font-family: "work15";
+    background-color: #2e2e2e;
+    color: #ebccc2;
+}
+
+h3{
+    font-size: 2.5em;
+}
+
+h6{
+    font-size: 0.8em;
+}
+
+p{
+    font-size: 1.1em;
+    line-height: 2em;
+    color:rgb(115, 115, 115)
+}
+
+h5{
+    font-size: 1.3em;
+}
+
+h2{
+    font-size: 3.3em;
+}
+/* <!-- global Ende --> */
+
+
+/* <!-- Navigation oben --> */
+#navigationOben{
+    display:flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 4vh;
+    position: fixed;
+}
+
+/* Logo */
+#navigationOben li:nth-of-type(1){
+    margin-left: 2vw;
+    margin-right: 54vw;
+}
+
+/* Subscribe & Contact */
+#navigationOben li:nth-of-type(2){
+    margin-right: 5vw;
+}
+
+/* facebook */
+#navigationOben li:nth-of-type(3){
+    margin-right: 1vw;
+}
+
+/* Twitter */
+#navigationOben li:nth-of-type(4){
+    margin-right: 1vw;
+}
+
+/* Youtube */
+#navigationOben li:nth-of-type(5){
+    margin-right: 5vw;
+}
+
+#navigationOben a{
+color:rgba(234, 204, 194, 0.5);
+}
+
+#navigationOben a:hover{
+    text-decoration: underline;
+    color: #ebccc2;
+}
+
+
+/* <!-- Navigation links --> */
+
+
+/* <!-- About --> */
+.goBeyondMusic{
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 27%;
+    margin-bottom: 9%;
+}
+
+.backgroundImageAbout{
+    height: 100vh;
+    background-image: url(../img/section-about-1.jpg);
+    background-position: center;
+    /* background-size: 91% 40%; */
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nycUndDesignAlchemy{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nycUndDesignAlchemy img{
+    width: 30%;
+    margin-left: 5%;
+    /* margin-bottom: 10%;  */
+}
+
+.nycUndDesignAlchemy div{
+    width: 35%;
+    padding-top: 4%;
+    padding-right: 4%;
+    margin-right: -3%;
+}
+
+.nycUndDesignAlchemy h3{
+    margin-bottom: 4%;
+}
+
+
+/* <!-- Lounger --> */
+.imgLounger{
+    margin-top: 10%;
+    height: 100vh;
+    width: 55vw;
+    background-image: url(../img/section-voyager.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.lounger{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 5%;
+}
+
+.lounger h2{
+    margin-bottom: 10%;
+}
+
+.lounger p{
+    margin-right: 15%;
+}
+
+.lounger span:nth-of-type(1){
+    margin-bottom: 3%;
+    display: inline-block;
+}
+
+.lounger span:nth-of-type(2){
+    margin-bottom: 3%;
+    display: inline-block;
+}
+
+.abstandBackgroundImages{
+    margin-bottom: 10%;
+}
+
+
+/* <!-- Experience --> */
+.imgExperience{
+    height: 100vh;
+    width: 55vw;
+    background-image: url(../img/section-experience-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.experience{
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 5%;
+}
+
+.experience h2{
+    margin-bottom: 10%;
+}
+
+.experience p{
+    margin-right: 15%;
+}
+
+.experience span:nth-of-type(1){
+    margin-bottom: 3%;
+    display: inline-block;
+}
+
+.abstandBackgroundImages{
+    margin-bottom: 10%;
+}
+
+
+/* <!-- Inspiration --> */
+.video{
+    width: 60vw;
+    margin-left: 20vw;
+}
+
+/* <!-- Inspiration Exist to Create --> */
+.existToCreate{
+    margin-top: 10%;
+    margin-left: 20vw;
+}
+
+.existToCreate h5{
+    margin-bottom: 2vh;
+}
+
+.existToCreate h3{
+    margin-bottom: 5vh;
+}
+
+.existToCreate li{
+    color:rgb(115, 115, 115);
+    font-size: 0.8em;
+    border: solid 1px #fff;
+    display: inline-block;
+    padding: 0.3% 0.6%;
+    margin-right: 0.2%;
+    margin-bottom: 1.2%;
+}
+
+.existToCreate p{
+    margin-bottom: 10%;
+}
+
+/* <!-- Inspiration A feeling for sound --> */
+.aFeelingForSound{
+    display: flex;
+    justify-content: center;
+}
+
+.aFeelingForSound img{
+    width: 30vw;
+}
+
+.aFeelingForSound div:nth-of-type(2){
+    width: 30vw;
+    padding-left: 2%;
+    margin-top: 3%;
+    padding-right: 2%;
+}
+
+.aFeelingForSound h5{
+    margin-bottom: 2vh;
+}
+
+.aFeelingForSound h3{
+    margin-bottom: 5vh;
+}
+
+/* <!-- Inspiration Everything Starts with Architecture --> */
+.everythingStartsWithArchitecture{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+
+.everythingStartsWithArchitecture img{
+    width: 30vw;
+}
+
+.everythingStartsWithArchitecture div:nth-of-type(1){
+    width: 30vw;
+    padding-left: 2%;
+    margin-top: 3%;
+    padding-right: 2%;
+}
+
+.everythingStartsWithArchitecture h5{
+    margin-bottom: 2vh;
+}
+
+.everythingStartsWithArchitecture h3{
+    margin-bottom: 5vh;
+}
+
+/* <!-- Shop --> */
